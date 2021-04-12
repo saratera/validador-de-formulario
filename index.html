@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validador de Formulário</title>
+</head>
+
+<body>
+    <div class="screen">
+        <div class="ldE">
+            <img src="./imagens/123.png" alt="">
+        </div>
+
+        <div class="ldD">
+            <h1>Crie sua Cona</h1>
+
+            <form  method="post" class="validador" >
+                <label >
+                    Seu nome: <br>
+                    <input type="text" name = "nome" data-rules = "required|min=2">
+                </label> 
+
+                <label >
+                    Seu E-mail: 
+                    <input type="email" name = "e-mail" data-rules = "required">
+                </label>
+
+                <label >
+                    Sua senha: <br>
+                    <input type="password" name = "senha" data-rules = "required|4" >
+                </label>
+
+                <label >                   
+                    <input type="submit" value ="Cadastrar">
+                </label>
+
+            </form>
+
+            <div> Já é cadastrado? <a href=""> Faça se Login</a></div>
+           
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+* {box-sizing: border-box;}
+
+
+body{
+    margin: 0px;
+}
+
+.screen{
+    display: flex;
+    height: 100vh;
+    
+}
+
+.ldE{
+    flex:  1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ldE img {
+    max-width: 570px;
+    height: auto;
+   
+    
+}
+
+.ldD{
+    width: 500px;
+    background-color: cadetblue;
+    padding: 50px;
+}
+
+.ldD label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.ldD input{
+    width: 100%;
+    border:  1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    outline: 0;
+}
+
